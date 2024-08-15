@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6df82;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(assets/bcimg.jpg); */
+    
+}
+
+.container {
+    background-color: #b8db76;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #e53935;
+}
+
+.menu {
+    margin: 20px 0;
+}
+
+.food-item {
+    margin: 10px 0;
+}
+
+#orderButton {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#orderButton:hover {
+    background-color: #d32f2f;
+}
+
+.order-status {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.order-number {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #e53935;
+}
+
+img {
+    max-width: 200px;
+    margin-top: 20px;
+}
